@@ -26,6 +26,48 @@ A modern IoT Smart Lamp system built using **ESP32**, **Flutter**, **MQTT**, and
 
 ---
 
+## 🏗️ System Architecture
+
+```text
+                    ┌─────────────────────┐
+                    │   Flutter Mobile    │
+                    │     Application     │
+                    └─────────┬───────────┘
+                              │
+                     MQTT over TLS (8883)
+                              │
+                    ┌─────────▼───────────┐
+                    │    HiveMQ Cloud     │
+                    │    MQTT Broker      │
+                    └─────────┬───────────┘
+                              │
+                    ┌─────────▼───────────┐
+                    │       ESP32         │
+                    │ Smart Lamp Firmware │
+                    └──────┬───────┬──────┘
+                           │       │
+                      PWM LED    DHT22
+                           │       │
+                        Brightness Temperature
+                                   Humidity
+```
+
+### Communication Flow
+
+```
+Flutter
+    │
+    ├── smartlamp/control ─────────────► ESP32
+    │
+    ◄──────── smartlamp/status ───────── ESP32
+    │
+    ◄──────── smartlamp/sensor ───────── ESP32
+    │
+    ◄──────── smartlamp/device ───────── ESP32
+```
+
+---
+
 ## ✨ Features
 
 - 💡 Remote ON/OFF lamp control
