@@ -52,4 +52,9 @@ app.*.map.json
 !.env.example
 
 # ESP32 secrets (if you create one later)
-config.h
+esp32/config.h
+
+# Certificates & Keys
+*.pem
+*.key
+*.crt
