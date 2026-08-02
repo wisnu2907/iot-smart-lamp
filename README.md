@@ -1,5 +1,16 @@
 # 💡 IoT Smart Lamp with ESP32, Flutter & HiveMQ Cloud
 
+![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter)
+![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart)
+![ESP32](https://img.shields.io/badge/ESP32-IoT-E7352C)
+![MQTT](https://img.shields.io/badge/MQTT-HiveMQ-660066?logo=eclipsemosquitto)
+![HiveMQ Cloud](https://img.shields.io/badge/HiveMQ-Cloud-yellow)
+![Arduino](https://img.shields.io/badge/Arduino-C++-00979D?logo=arduino)
+![Wokwi](https://img.shields.io/badge/Wokwi-Simulation-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+A modern IoT Smart Lamp system built using **ESP32**, **Flutter**, **MQTT**, and **HiveMQ Cloud**.
+
 A modern IoT Smart Lamp system built using **ESP32**, **Flutter**, **MQTT**, and **HiveMQ Cloud**. The application allows real-time remote control of an LED lamp while monitoring environmental conditions using a DHT22 sensor.
 
 ---
