@@ -68,6 +68,28 @@ Flutter
 
 ---
 
+## 📸 Screenshots
+
+### Flutter Application
+
+| Home Screen | Device Monitoring |
+|--------------|-------------------|
+| ![](images/flutter_home.png) | ![](images/flutter_device.png) |
+
+---
+
+### Wokwi Simulation
+
+![](images/wokwi_simulation.png)
+
+---
+
+### ESP32 Hardware
+
+![](images/esp32_hardware.jpg)
+
+---
+
 ## ✨ Features
 
 - 💡 Remote ON/OFF lamp control
